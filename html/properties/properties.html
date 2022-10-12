@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>property</title>
+        <base href="https://www.example.com/html/" target="_blank">
+    </head>
+
+    <body>
+        <!-- id -->
+        <p id="p1">this is p1</p>
+        <p id="p2">this is p2</p>
+        <p id="p3">this is p3</p>
+
+        <!-- class -->
+        <p class="para">this paragraph has class para</p>
+        <p>this paragraph doesn't have any class</p>
+        <p class="para">this paragraph has class para</p>
+        <p class="p1 p2 p3">this paragraph has class p1, p2, p3</p>
+
+        <!-- hint when you move your mouse here -->
+        <div title="info">
+            <p>move your mouse here and you can see detail info</p>
+        </div>
+
+        <!-- use tab to chose -->
+        <p tabindex="0">press tab and you will goto here</p>
+        <p tabindex="-1">press tab and you will not goto here</p>
+
+        <!-- hotkey -->
+        <button accesskey="s">submit</button>
+
+        <!-- css -->
+        <p style="color: red;">hello</p>
+
+        <!-- visible? -->
+        <p hidden>not visible</p>
+
+        <!-- edit? -->
+        <p contenteditable="true">
+            this paragraph can be edited
+        </p>
+
+        <p contenteditable="true" spellcheck="true">
+            which one is right? separate seperate
+        </p>
+
+        <a href="#" class="tooltip" data-tip="this is the tip!">link</a>
+    </body>
+</html>
