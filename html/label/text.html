@@ -1,11 +1,140 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="zh">
     <head>
         <title>text label</title>
     </head>
 
     <body>
-        
+        <!-- div -->
+        <main>
+            <article>
+                <header>
+                    <h1>article title</h1>
+                </header>
+            </article>
+        </main>
+
+        <div>
+            <img src="warning.jpg" alt="warning">
+            <p>careful</p>
+            <span>hello</span>
+            <span>world</span>
+            <p>
+                this<br>
+                is<br>
+                a paragraph<br>
+            </p>
+            <pre>
+                hello
+                    world
+            </pre>
+            <hr>
+            <p>
+                this is another paragraph <br />
+                <strong>bold font</strong> <b>bold font</b> <br />
+                <em>italic font</em> <i>italic font</i> <br />
+                H<sub>2</sub>O <br />
+                <var>x</var><sup>3</sup> <br />
+            </p>
+            <p>
+                <var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>c</var><sup>2</sup>
+            </p>
+            <p>
+                this is a <u>wrong</u> word <br />
+                this is a <s>wrong</s> word
+            </p>
+
+            <blockquote cite="https://quote.example.com">
+                <p>Genius is 1% talent and 99% sweat.</p>
+            </blockquote>
+            <cite>-- Edison</cite>
+
+            <p>more info: <cite>wiki</cite></p>
+
+            <p>
+                莎士比亚的《哈姆雷特》有一句著名的台词：
+                <q cite="https://quote.example.com">活着还是死亡，这是一个问题。</q>
+            </p>
+
+            <pre>
+                <code>
+                    let a = 1;
+                    console.log(a);
+                </code>
+            </pre>
+
+            <p>
+                Windows 可以按下 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Del</kbd> 重启。
+            </p>
+            <p>
+                Windows 可以按下<kbd> <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Del</kbd> </kbd>重启。
+            </p>
+
+            <p>
+                如果使用 没有定义的变量，浏览器会报错：
+                <samp>Uncaught ReferenceError: foo is not defined</samp>。
+            </p>
+
+            <p>我们讨论以后决定，<mark>运行会在下周三举办</mark>。</p>
+            <blockquote>
+                床前明月光，疑是地上霜。<mark>举头望明月，低头思故乡。</mark>
+            </blockquote>
+
+            <p>文章正文</p>
+            <p><small>以上内容使用创意共享许可证。</small></p>
+
+            <p>运动会预定<time datetime="2015-06-10">下周三</time>举行。</p>
+            <p>音乐会在<time datetime="20:00">晚上八点</time>开始。</p>
+            <p>本次马拉松比赛第一名是<data value="39">张三</data>。</p>
+
+            <p>作者的联系方式：</p>
+            <address>
+                <p><a href="mailto:foo@example.com">foo@example.com</a></p>
+                <p><a href="tel:+555-34762301">+555-34762301</a></p>
+            </address>
+
+            <abbr title="HyperText Markup Language">HTML</abbr>
+
+            <del><p>会议定于5月8日举行。</p></del>
+            <ins><p>会议定于5月9日举行。</p></ins>
+            <ins cite="./why.html" datetime="2018-05">
+                <p>项目比原定时间提前两周结束。</p>
+            </ins>
+
+            <p>
+                通过 TCP/IP 协议连接的全球性计算机网络，叫做 <dfn>Internet</dfn>。
+            </p>
+            <p>
+                通过 TCP/IP 协议连接的全球性计算机网络，叫做
+                <dfn title="全球性计算机网络">Internet</dfn>。
+            </p>
+            <p>
+                <dfn><abbr title="acquired immune deficiency syndrome">AIDS</abbr><dfn>
+                的全称是获得性免疫缺陷综合征。
+            </p>
+
+            <ruby>
+                汉<rp>(</rp><rt>han</rt><rp>)</rp>
+                字<rp>(</rp><rt>zi</rt><rp>)</rp>
+            </ruby>
+
+            <ruby>
+                <rbc>
+                    <rb>汉</rb><rp>(</rp><rt>han</rt><rp>)</rp>
+                    <rb>字</rb><rp>(</rp><rt>zi</rt><rp>)</rp>
+                </rbc>
+            </ruby>
+
+            <p>床前明月光，<bdo dir="rtl">霜上地是疑</bdo>。</p>
+            <p><bdi>床前明月光，疑是地上霜。</bdi></p>
+        </div>
+
+        <footer>
+            <address>
+                文章的相关问题请联系<a href='mailto:zhangsan@example.com'>张三
+                McClure</a>。
+            </address>
+        </footer>
     </body>
 </html>
