@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="zh">
+  <head>
+    <title>table label</title>
+  </head>
+
+  <body>
+    <table border="1">
+      <caption>
+        stu info
+      </caption>
+      <colgroup>
+        <col width="100" />
+        <col width="20" />
+        <col width="30" />
+        <col width="100" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>age</th>
+          <th>score</th>
+          <th>id</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>mars</td>
+          <td>18</td>
+          <td>90</td>
+          <td>20210908</td>
+        </tr>
+        <tr>
+          <td>john</td>
+          <td>17</td>
+          <td>67</td>
+          <td>20210012</td>
+        </tr>
+        <tr>
+          <td rowspan="2" headers="name">fetch</td>
+          <td rowspan="2">18</td>
+          <td>78</td>
+          <td rowspan="2">20210828</td>
+        </tr>
+        <tr>
+          <td>94</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr height="20">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <table>
+        <tr>
+          <th scope="col">姓名</th>
+          <th scope="col">学号</th>
+          <th scope="col">性别</th>
+        </tr>
+        <tr>
+          <th scope="row">张三</th>
+          <td>001</td>
+          <td>男</td>
+        </tr>
+        <tr>
+          <th scope="row">李四</th>
+          <td>002</td>
+          <td>男</td>
+        </tr>
+      </table>
+  </body>
+</html>

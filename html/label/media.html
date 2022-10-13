@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="zh">
+  <head>
+    <title>media link</title>
+  </head>
+
+  <body>
+    <video src="example.mp4" controls>
+      <p>
+        你的浏览器不支持 HTML5 视频，请下载<a href="example.mp4">视频文件</a>。
+      </p>
+    </video>
+
+    <video controls>
+      <source src="example.mp4" type="video/mp4" />
+      <source src="example.webm" type="video/webm" />
+      <p>
+        你的浏览器不支持 HTML5 视频，请下载<a href="example.mp4">视频文件</a>。
+      </p>
+    </video>
+
+    <audio controls>
+      <source src="foo.mp3" type="audio/mp3" />
+      <source src="foo.ogg" type="audio/ogg" />
+      <p>
+        你的浏览器不支持 HTML5 音频，请直接下载<a href="foo.mp3">音频文件</a>。
+      </p>
+    </audio>
+
+    <video controls src="sample.mp4">
+      <track
+        label="英文"
+        kind="subtitles"
+        src="subtitles_en.vtt"
+        srclang="en"
+      />
+      <track
+        label="中文"
+        kind="subtitles"
+        src="subtitles_cn.vtt"
+        srclang="cn"
+        default
+      />
+    </video>
+
+    <embed
+      type="video/webm"
+      src="/media/examples/flower.mp4"
+      width="250"
+      height="200"
+    />
+
+    <object
+      type="application/pdf"
+      data="/media/examples/In-CC0.pdf"
+      width="250"
+      height="200"
+    ></object>
+  </body>
+</html>
