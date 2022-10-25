@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
 <html lang="zh">
-  <head>
+
+<head>
     <title>hyperlink label</title>
 
     <link rel="stylesheet" type="text/css" href="theme.css" />
@@ -11,16 +12,8 @@
     <link href="basic.css" rel="alternate stylesheet" title="Basic" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <!-- 手机访问时，网站通常需要提供不同分辨率的图标文件 -->
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="114x114"
-      href="favicon114.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="72x72"
-      href="favicon72.png"
-    />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon72.png" />
     <link rel="alternate" type="application/atom+xml" href="/blog/news/atom" />
 
     <!-- 作者信息 -->
@@ -30,11 +23,7 @@
     <!-- 另一个语言的版本 -->
     <link rel="alternate" href="https://es.example.com/" hreflang="es" />
     <!-- 联系方式 -->
-    <link
-      rel="me"
-      href="https://google.com/profiles/someone"
-      type="text/html"
-    />
+    <link rel="me" href="https://google.com/profiles/someone" type="text/html" />
     <link rel="me" href="mailto:name@example.com" />
     <link rel="me" href="sms:+15035550125" />
     <!-- 历史资料 -->
@@ -53,19 +42,8 @@
     <link rel="preload" href="main.js" as="script" />
 
     <link rel="preload" href="sintel-short.mp4" as="video" type="video/mp4" />
-    <link
-      rel="preload"
-      href="font.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      as="style"
-      href="async_style.css"
-      onload="this.rel='stylesheet'"
-    />
+    <link rel="preload" href="font.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" as="style" href="async_style.css" onload="this.rel='stylesheet'" />
 
     <!-- 预加载 优先级低 -->
     <link rel="prefetch" href="https://www.example.com/" />
@@ -74,18 +52,14 @@
 
     <!-- media -->
     <link href="print.css" rel="stylesheet" media="print" />
-    <link
-      href="mobile.css"
-      rel="stylesheet"
-      media="screen and (max-width: 600px)"
-    />
+    <link href="mobile.css" rel="stylesheet" media="screen and (max-width: 600px)" />
 
     <link rel="preload" as="image" href="map.png" media="(max-width: 600px)" />
     <link rel="preload" as="script" href="map.js" media="(min-width: 601px)" />
 
     <!-- script -->
     <script>
-      console.log("hello world");
+        console.log("hello world");
     </script>
     <script src="javascript.js"></script>
     <!-- 完整写法 -->
@@ -97,15 +71,15 @@
     <script nomodule src="fallback.js"></script>
 
     <noscript>
-      您的浏览器不能执行 JavaScript 语言，页面无法正常显示。
+        您的浏览器不能执行 JavaScript 语言，页面无法正常显示。
     </noscript>
-  </head>
+</head>
 
-  <body>
+<body>
     <a href="https://wikipedia.org/">wikipedia</a>
 
     <a href="https://www.example.com/">
-      <img src="https://www.example.com/foo.jpg" />
+        <img src="https://www.example.com/foo.jpg" />
     </a>
 
     <a href="https://www.example.com" target="_blank">demo link</a>
@@ -118,10 +92,8 @@
     <a href="data:,Hello%2C%20World!" download="hello.txt">点击</a>
 
     <a href="mailto:contact@example.com">联系我们</a>
-    <a
-      href="mailto:foo@bar.com?cc=test@test.com&subject=The%20subject&body=The%20body"
-      >发送邮件</a
-    >
+    <a href="mailto:foo@bar.com?cc=test@test.com&subject=The%20subject&body=The%20body">发送邮件</a>
     <a href="mailto:">告诉朋友</a>
-  </body>
+</body>
+
 </html>

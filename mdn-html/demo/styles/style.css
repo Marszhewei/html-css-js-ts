@@ -1,0 +1,47 @@
+/* p,
+li {
+    color: red;
+    width: 500px;
+    border: 0px solid black;
+} */
+
+html {
+    /* 改变背景颜色 */
+    background-color: #00539F;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    /* 页面宽度 */
+    width: 600px;
+    /* 外边框位置 上下左右 */
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+p,
+li {
+    font-size: 16px;
+    /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+    line-height: 2;
+    letter-spacing: 1px;
+}

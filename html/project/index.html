@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="127.0.0.1:5500/html/project/" , target="_self">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <p style="color: blue;">导航栏</p>
+        <ul>
+            <li><a href="a">登录</a> <a href="a">设置</a> <a href="a">主页</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>文章精选</h1>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h2>第一篇文章标题</h2>
+            </header>
+            <section>
+                <h3>第一话</h3>
+                <p hidden>被隐藏了</p>
+                <p id="p" class="pp" title="这是正文" tabindex="1" style="color: grey;" lang="en" contenteditable="true"
+                    spellcheck="true">
+                    NumPy提供了几个函数来根据表格数据创建数组。我们将重点放在genfromtxt函数上。<s>In a nutshell, genfromtxt runs two main
+                        loops.</s><br> 第一个循环以字符串序列转换文件的每一行。第二个循环将每个字符串转换为适当的数据类型。这种机制比单一循环慢，但提供<br>了更多的灵活性。特别的,
+                    genfromtxt考虑到缺失值的情况, 其他更简单的方法如loadtxt无法做到这点.
+                </p>
+            </section>
+            <section>
+                <h3>第二话</h3>
+                <pre>第二话正文     我可以保持自己在HTML中的格式</pre>
+                <em>斜体</em><br>
+                <strong>粗体</strong><br>
+                <u>下划线</u><br>
+                <s>删除线</s><br>
+                <blockquote cite="www.fetch150zy.org">
+                    <p>What is the reality?</p>
+                </blockquote>
+                <cite>-- fetch150zy</cite><br>
+                <q>引言</q><br>
+                <pre>
+                    <code>
+                        import numpy as np
+
+                        def main():
+                            pass
+                        
+                        if __name__ == "__main__":
+                            main()
+                    </code>
+                </pre>
+
+            </section>
+        </article>
+        <hr>
+        <article>
+            <header>
+                <hgroup>
+                    <h2>第二篇文章标题</h2>
+                    <h3>副标题</h3>
+                </hgroup>
+            </header>
+            <p>正文</p>
+        </article>
+        <footer>
+            <p style="color: red">© <s>禁止转载</s></p>
+        </footer>
+        <p>下面是列表</p>
+        <ol start="5" type="I" reversed>
+            <li>有序表</li>
+            <li>采用大写罗马标号</li>
+            <li>倒序输出</li>
+            <li>从II开始</li>
+        </ol>
+        <ul>
+            <li>无序表</li>
+        </ul>
+        <dl>
+            <dt>早饭</dt>
+            <dd>面包</dd>
+            <dd>牛奶</dd>
+        </dl>
+        <p>下面是表格</p>
+        <table>
+            <th>表格</th>
+            <tr>
+                <td>&nbsp;</td>
+                <td>Knocky</td>
+                <td>Flor</td>
+                <td>Ella</td>
+                <td>Juan</td>
+            </tr>
+            <tr>
+                <td>Breed</td>
+                <td>Jack Russell</td>
+                <td>Poodle</td>
+                <td>Streetdog</td>
+                <td>Cocker Spaniel</td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>16</td>
+                <td>9</td>
+                <td>10</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Owner</td>
+                <td>Mother-in-law</td>
+                <td>Me</td>
+                <td>Me</td>
+                <td>Sister-in-law</td>
+            </tr>
+            <tr>
+                <td>Eating Habits</td>
+                <td>Eats everyone's leftovers</td>
+                <td>Nibbles at food</td>
+                <td>Hearty eater</td>
+                <td>Will eat till he explodes</td>
+            </tr>
+        </table>
+
+        <aside>
+            评论区<br>
+            <mark>特别评论</mark>
+            <p><small>写的好</small></p>
+        </aside>
+        <div>
+            <p style="color: yellowgreen;">只是一个无意义的区块</p>
+            <p style="color: yellowgreen;">可以把很多块级元素组合在一起</p>
+        </div>
+        <p><span style="color: peru;">行内标签</span></p>
+    </main>
+    <aside>侧边栏</aside>
+    <footer>
+        <address>联系地址： 陕西省西安市xxx</address>
+        <p>写于 <time datetime="2022-10-24">2022年10月24日</time></p>
+        <p>© copyright fetch150zy</p>
+    </footer>
+</body>
+
+</html>
