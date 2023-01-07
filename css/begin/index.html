@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .box {
+            width: 1200px;
+            height: 500px;
+            background-color: gray;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .box-hd {
+            width: inherit;
+            height: 50px;
+            background-color: greenyellow;
+        }
+
+        .left-title {
+            background-color: red;
+            float: left;
+            height: inherit;
+            line-height: 50px;
+            text-indent: 1em;
+        }
+
+        .right-link {
+            float: right;
+            width: 120px;
+            height: inherit;
+            line-height: 50px;
+        }
+
+        .circle {
+            background-color: gray;
+            display: inline-block;
+            border-radius: 10px;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .box-main {
+            margin-top: 10px;
+            background-color: #eee;
+            width: inherit;
+            height: 400px;
+        }
+
+        .left-item {
+            float: left;
+            height: inherit;
+            width: 200px;
+        }
+
+        .big-pic {
+            background-color: #efd;
+            width: inherit;
+            height: 380px;
+        }
+
+        .brick-item-l {
+            margin-top: 10px;
+            width: inherit;
+            height: 370px;
+            text-align: center;
+            line-height: 370px;
+        }
+
+        .right-item {
+            float: right;
+            height: inherit;
+            width: 1000px;
+        }
+
+        .small-pic {
+            margin-left: 20px;
+            background-color: #fde;
+            width: 980px;
+            height: 380px;
+        }
+
+        .brick-item-r {
+            margin-top: 10px;
+            float: left;
+            margin-left: 20px;
+            height: 180px;
+            width: 220px;
+            text-align: center;
+            line-height: 180px;
+        }
+
+        .clearfix:after {
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        .clsfix:before,
+        .clsfix:after {
+            content: "";
+            display: table;
+        }
+
+        .clsfix:after {
+            clear: both;
+        }
+
+        /* 关于清除浮动的四种方法 */
+        /* 添加标签 */
+        /* 父盒子添加overflow:hidden */
+        /* 父盒子after伪元素 */
+        /* 父盒子双伪元素 */
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box-hd">
+            <h2 class="left-title">Phone</h2>
+            <div class="right-link">
+                <a href="#">
+                    More Info
+                    <i class="circle">&lt</i>
+                </a>
+            </div>
+        </div>
+        <div class="box-main">
+            <div class="left-item">
+                <ul class="big-pic">
+                    <li class="brick-item-l">0</li>
+                </ul>
+            </div>
+            <div class="right-item">
+                <ul class="small-pic">
+                    <li class="brick-item-r" style="background-color: red;">1</li>
+                    <li class="brick-item-r" style="background-color: orange;">2</li>
+                    <li class="brick-item-r" style="background-color: yellow;">3</li>
+                    <li class="brick-item-r" style="background-color: green;">4</li>
+                    <li class="brick-item-r" style="background-color: greenyellow;">5</li>
+                    <li class="brick-item-r" style="background-color: blue;">6</li>
+                    <li class="brick-item-r" style="background-color: purple;">7</li>
+                    <li class="brick-item-r" style="background-color: burlywood;">8</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: red;" class="clsfix">
+        <dvi style="background-color: green; float: left; width: 200px; height: 300px;"></dvi>
+        <dvi style="background-color: yellow; float: left; width: 200px; height: 300px;"></dvi>
+    </div>
+    <!-- <div style="clear: both;"></div> -->
+    <div style="background-color: blue; height: 200px;"></div>
+</body>
+
+</html>

@@ -10,11 +10,32 @@
 | 属性选择器                           | 拥有特定属性的元素                                           | `img[src]` 选择 `<img src="myimage.png">` 而不是 `<img>`     |
 | 伪（Pseudo）类选择器                 | 特定状态下的特定元素（比如鼠标指针悬停）                     | `a:hover` 仅在鼠标指针悬停在链接上时选择 `<a>`。             |
 
--   `padding`：即内边距，围绕着内容（比如段落）的空间
--   `border`：即边框，紧接着内边距的线
--   `margin`：即外边距，围绕元素外部的空间
--   `width` ：元素的宽度
--   `background-color` ：元素内容和内边距底下的颜色
--   `color` ：元素内容（通常是文本）的颜色
--   `text-shadow` ：为元素内的文本设置阴影
--   `display` ：设置元素的显示模式（暂略）
+### 布局定位属性
+- display
+- opsition
+- float
+- clear
+- visibility
+- overflow
+### 自身属性
+- width
+- height
+- margin
+- padding
+- border
+- background
+### 文本属性
+- color
+- font
+- text-decoration
+- text-align
+- vertical-align
+- white-space
+- break-word
+### 其他属性
+- content
+- cursor
+- border-radius
+- box-shadow
+- text-shadow
+- background:linear-gradient
